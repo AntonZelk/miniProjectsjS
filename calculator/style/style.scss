@@ -1,0 +1,76 @@
+@import url(./nullstyle.css);
+
+.calculator {
+  width: 100%;
+
+  &__row {
+    margin: 0 auto;
+    border-radius: 10%;
+    width: 400px;
+    background-color: rgb(0, 0, 0);
+  }
+
+  &__head {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+  }
+  &__input {
+    width: 80%;
+    padding-right: 2%;
+    text-align: right;
+    caret-color: aqua;
+    color: #fff;
+    background-color: rgb(0, 0, 0);
+  }
+  &__cursor {
+    position: relative;
+    top: 20px;
+    left: -5px;
+    top: 0px;
+    width: 1px;
+    height: 14px;
+    background: rgb(107, 238, 255);
+    opacity: 1;
+  }
+}
+.btn {
+  &__row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  &__clear {
+    span {
+      display: flex;
+      color: rgb(246, 132, 66);
+    }
+  }
+
+  &__action {
+    span {
+      display: flex;
+      color: rgb(117, 228, 132);
+    }
+  }
+
+  &__num {
+    span {
+      display: flex;
+      color: rgb(253, 252, 252);
+    }
+  }
+}
+.button {
+  font-size: 30px;
+  height: 70px;
+  margin: 10px;
+  width: 70px;
+  background-color: rgb(59, 59, 59);
+  border-radius: 50%;
+  border: 2px solid rgb(117, 115, 115);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

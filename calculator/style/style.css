@@ -1,0 +1,92 @@
+@import url(./nullstyle.css);
+.calculator {
+  width: 100%;
+}
+
+.calculator__row {
+  margin: 0 auto;
+  border-radius: 10%;
+  width: 400px;
+  background-color: black;
+}
+
+.calculator__head {
+  padding-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.calculator__input {
+  width: 80%;
+  padding-right: 2%;
+  text-align: right;
+  caret-color: aqua;
+  color: #fff;
+  background-color: black;
+}
+
+.calculator__cursor {
+  position: relative;
+  top: 20px;
+  left: -5px;
+  top: 0px;
+  width: 1px;
+  height: 14px;
+  background: #6beeff;
+  opacity: 1;
+}
+
+.btn__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.btn__clear span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #f68442;
+}
+
+.btn__action span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #75e484;
+}
+
+.btn__num span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #fdfcfc;
+}
+
+.button {
+  font-size: 30px;
+  height: 70px;
+  margin: 10px;
+  width: 70px;
+  background-color: #3b3b3b;
+  border-radius: 50%;
+  border: 2px solid #757373;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=style.css.map */
