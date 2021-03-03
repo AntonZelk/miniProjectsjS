@@ -12,15 +12,24 @@
       <container class="calculator">
         <div class="calculator__row">
           <div class="calculator__head">
-            <input
-              class="calculator__input"
-              type="text"
-              name=""
-              id=""
-              value="0"
-              disabled
-            />
-            <label class="calculator__cursor cursor" id="cursor"></label>
+            <div class="head__wrapper">
+              <input
+                class="calculator__input"
+                type="text"
+                name=""
+                id=""
+                value="0"
+                disabled
+              />
+              <label class="calculator__cursor cursor" id="cursor"></label>
+            </div>
+            <div class="head__menu">
+              <ul class="menu__btn">
+                <li><span class="far fa-clock" id="history"></li>
+                <li><span class="fas fa-calculator" id="newBtn"></span></li>
+              </ul>
+              <div class="menu__clear"><span class="fas fa-backspace"></span></div>
+            </div>
           </div>
           <div class="calculator__btn">
             <div class="btn__row">
@@ -44,11 +53,30 @@
               <div class="btn__num button"><span>0</span></div>
               <div class="btn__num button"><span>,</span></div>
               <div class="btn__action button"><span>=</span></div>
+              <div class="btn__action but"><span>Rad</span></div>
+              <div class="btn__action but"><span class="fas fa-square-root-alt"></span></div>
+              <div class="btn__action but"><span>sin</span></div>
+              <div class="btn__action but"><span>cos</span></div>
+              <div class="btn__action but"><span>tan</span></div>
+              <div class="btn__action but"><span>ln</span></div>
+              <div class="btn__action but"><span>log</span></div>
+              <div class="btn__action but"><span>1/x</span></div>
+              <div class="btn__action but"><span>e<span class="mini">x</span></span></div>
+              <div class="btn__action but"><span>x<span class="mini">2</span></span></div>
+              <div class="btn__action but"><span>x<span class="mini">y</span></span></div>
+              <div class="btn__action but"><span>|x|</span></div>
+              <div class="btn__action but"><span>&#960</span></div>
+              <div class="btn__action but"><span>e</span></div>
+              <div class="btn__action but but__green"><span>=</span></div>
             </div>
           </div>
         </div>
       </container>
     </div>
+    <script
+      src="https://kit.fontawesome.com/44e0563b96.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="./scripts/script.js"></script>
   </body>
 </html>

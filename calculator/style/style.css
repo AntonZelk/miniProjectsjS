@@ -5,9 +5,10 @@
 
 .calculator__row {
   margin: 0 auto;
-  border-radius: 10%;
+  border-radius: 5%;
   width: 400px;
   background-color: black;
+  padding-bottom: 20px;
 }
 
 .calculator__head {
@@ -15,27 +16,93 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
 
+.calculator .head__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.calculator .head__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: stretch;
+      -ms-flex-pack: stretch;
+          justify-content: stretch;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.calculator .menu__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.calculator .menu__btn li {
+  margin: 0 10px;
+  color: #757373;
+  font-size: 30px;
+}
+
+.calculator .menu__btn li span {
+  cursor: pointer;
+}
+
+.calculator .menu__btn li:hover {
+  color: #75e484;
+}
+
+.calculator .menu__clear {
+  color: #75e484;
+  font-size: 30px;
+  text-align: right;
+  margin-left: 50%;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.calculator .menu__clear span:hover {
+  color: #f68442;
+}
+
 .calculator__input {
-  width: 80%;
+  width: 90%;
   padding-right: 2%;
   text-align: right;
-  caret-color: aqua;
   color: #fff;
   background-color: black;
+  font-size: 42px;
 }
 
 .calculator__cursor {
-  position: relative;
+  position: absolute;
+  display: block;
   top: 20px;
-  left: -5px;
+  left: 89%;
   top: 0px;
-  width: 1px;
-  height: 14px;
+  width: 2px;
+  height: 46px;
   background: #6beeff;
   opacity: 1;
 }
@@ -44,10 +111,13 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  border-top: solid 1px #757373;
+  margin: 0 20px;
 }
 
 .btn__clear span {
@@ -71,12 +141,13 @@
   color: #fdfcfc;
 }
 
-.button {
+.button,
+.but {
   font-size: 30px;
   height: 70px;
   margin: 10px;
   width: 70px;
-  background-color: #3b3b3b;
+  background-color: #252525;
   border-radius: 50%;
   border: 2px solid #757373;
   display: -webkit-box;
@@ -88,5 +159,48 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  cursor: pointer;
+  -webkit-transition-duration: 150ms;
+          transition-duration: 150ms;
+  -webkit-transition-timing-function: ease-in;
+          transition-timing-function: ease-in;
+}
+
+.button:hover {
+  font-size: 42px;
+}
+
+.but {
+  display: none;
+  margin: 10px 20px;
+  font-size: 25px;
+  -webkit-transition-duration: 150ms;
+          transition-duration: 150ms;
+  -webkit-transition-timing-function: ease-in;
+          transition-timing-function: ease-in;
+}
+
+.but span {
+  color: #fff;
+}
+
+.but:hover {
+  font-size: 32px;
+}
+
+.but__green {
+  font-size: 30px;
+}
+
+.but__green span {
+  color: #75e484;
+}
+
+.but__green:hover {
+  font-size: 42px;
+}
+
+.but .mini {
+  font-size: 14px;
 }
 /*# sourceMappingURL=style.css.map */
