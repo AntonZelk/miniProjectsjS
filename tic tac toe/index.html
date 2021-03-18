@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <container class="tic-tac-toe">
+        <div class="board__row" id="board">
+          <div class="cell"><span></span><span class="cell__slash"></span></div>
+          <div class="cell"><span></span><span class="cell__slash"></span></div>
+          <div class="cell"><span></span><span class="cell__slash"></span></div>
+          <div class="cell"><span></span><span class="cell__slash"></span></div>
+          <div class="cell"><span></span><span class="cell__slash"></span></div>
+          <div class="cell"><span></span><span class="cell__slash"></span></div>
+          <div class="cell"><span></span><span class="cell__slash"></span></div>
+          <div class="cell"><span></span><span class="cell__slash"></span></div>
+          <div class="cell"><span></span><span class="cell__slash"></span></div>
+        </div>
+        <p class="move" id="move">Ходит: X</p>
+        <button class="btn">Начать сначала</button>
+      </container>
+      <container class="result">
+        <p>Выиграл Х:<span id="resultX">0</span></p>
+        <p>Выиграл О:<span id="resultO">0</span></p>
+        <p>Ничья:<span id="resultDraw">0</span></p>
+      </container>
+    </div>
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>
