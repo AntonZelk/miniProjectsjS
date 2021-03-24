@@ -1,0 +1,51 @@
+@import url(./nullstyle.css);
+.container {
+  font-size: 20px;
+}
+.list {
+  margin: 50px 0 0 50px;
+}
+ul li {
+  display: flex;
+  align-items: center;
+
+  margin: 10px 0 0 30px;
+  &:last-child {
+    margin-bottom: 10px;
+  }
+}
+ul li input {
+  margin: 0 5px 0 0;
+}
+.btn {
+  margin: 30px 0 0 30px;
+  font-size: 20px;
+  padding: 10px 25px;
+  border: 1px solid black;
+  border-radius: 5px;
+  &:hover {
+    background-color: rgb(227, 224, 231);
+  }
+}
+
+.list2 {
+  margin: 0 0 0 50px;
+}
+.list2 li {
+  margin: 5px 0 5px 10px;
+}
+
+.li {
+  margin: 0 5px 0px 0px;
+}
+
+.own {
+  font-size: 20px;
+  border: 1px solid black;
+  margin: 0 0 0px 10px;
+  padding: 0 0 0px 10px;
+  list-style-type: none;
+}
+.own:focus {
+  border: 1px solid rgb(255, 102, 102);
+}
