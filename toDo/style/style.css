@@ -1,0 +1,74 @@
+@import url(./nullstyle.css);
+.to-do {
+  font-size: 32px;
+  margin: 50px auto 0 auto;
+  max-width: 800px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.add-task {
+  border: 2px solid #38c4ce;
+  width: 100%;
+  margin: 0 auto;
+  padding: 5px 20px;
+  font-size: 32px;
+  border-radius: 30px;
+}
+
+.add-task:focus {
+  border-color: brown;
+}
+
+.tasks {
+  width: 100%;
+  margin: 20px auto 0 auto;
+}
+
+.tasks li {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+  border: 2px solid #38c4ce;
+  padding: 15px 20px;
+}
+
+.closeTask {
+  border: 1px solid red;
+  border-radius: 50%;
+  color: red;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.checkbox {
+  margin-right: 20px;
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+  margin-top: 10px;
+}
+
+.wrapCloseTask {
+  position: absolute;
+  right: 10px;
+}
+
+.newInput {
+  font-size: 32px;
+  border: 2px solid #ce4f38;
+  width: 80%;
+  padding: 5px 20px;
+  font-size: 32px;
+  border-radius: 30px;
+}
+/*# sourceMappingURL=style.css.map */
