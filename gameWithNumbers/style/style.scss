@@ -1,0 +1,50 @@
+@import url(./nullstyle.css);
+.wrapper {
+  width: 100%;
+}
+.container {
+  margin: 0 auto;
+  text-align: center;
+}
+.btn,
+.btnStartOver {
+  margin: 50px 0 20px 0;
+  font-size: 32px;
+  background-color: rgb(78, 197, 67);
+  color: #fff;
+  padding: 15px 30px;
+  border-radius: 30px;
+  transition: ease;
+  transition-duration: 200ms;
+  cursor: pointer;
+  &:hover {
+    background-color: cadetblue;
+  }
+}
+.text {
+  font-size: 28px;
+}
+.textTimer {
+  margin: 50px 0 50px 0;
+  font-size: 28px;
+}
+.board {
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+  margin: 0 auto 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  &__cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 96px;
+    height: 96px;
+    margin: 1px;
+    border: 1px solid black;
+    cursor: pointer;
+  }
+}

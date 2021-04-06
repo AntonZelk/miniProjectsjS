@@ -1,0 +1,74 @@
+@import url(./nullstyle.css);
+.wrapper {
+  width: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.btn,
+.btnStartOver {
+  margin: 50px 0 20px 0;
+  font-size: 32px;
+  background-color: #4ec543;
+  color: #fff;
+  padding: 15px 30px;
+  border-radius: 30px;
+  -webkit-transition: ease;
+  transition: ease;
+  -webkit-transition-duration: 200ms;
+          transition-duration: 200ms;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btnStartOver:hover {
+  background-color: cadetblue;
+}
+
+.text {
+  font-size: 28px;
+}
+
+.textTimer {
+  margin: 50px 0 50px 0;
+  font-size: 28px;
+}
+
+.board {
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+  margin: 0 auto 50px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.board__cell {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 96px;
+  height: 96px;
+  margin: 1px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
