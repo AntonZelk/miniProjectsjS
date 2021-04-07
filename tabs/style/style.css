@@ -1,0 +1,37 @@
+@import url(./nullstyle.css);
+.wrapper {
+  width: 100%;
+}
+
+.block__row {
+  max-width: 500px;
+  width: 100%;
+  border: 3px solid greenyellow;
+  border-radius: 12px;
+  margin: 100px auto 0 auto;
+}
+
+.menu__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: 30px;
+  margin: 20px 8px 40px 8px;
+}
+
+.menu__name {
+  background-color: rgba(241, 236, 236, 0.712);
+  padding: 10px;
+  border-radius: 10px 10px 0 0;
+  cursor: pointer;
+  -webkit-transition-duration: 300ms;
+          transition-duration: 300ms;
+}
+
+.about__text {
+  margin: 0 15px 20px 15px;
+  font-size: 20px;
+}
+/*# sourceMappingURL=style.css.map */
