@@ -1,0 +1,92 @@
+@import url(./nullstyle.css);
+.wrapper {
+  width: 100%;
+}
+
+.calendar {
+  margin: 50px auto 0 auto;
+  width: 490px;
+  font-size: 24px;
+  border: 1px solid #f07cc9;
+  border-radius: 15px;
+  background: -webkit-gradient(linear, left top, right top, from(#faf0cd), to(#fab397));
+  background: linear-gradient(90deg, #faf0cd, #fab397);
+  color: rgba(77, 74, 74, 0.65);
+}
+
+.calendar__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.row__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 20px 0 20px 0;
+  color: black;
+}
+
+.row__days {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 0 0 20px 0;
+  color: black;
+}
+
+.row__numbers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 0 20px 0;
+}
+
+.header__fullDate {
+  width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 0 25px;
+}
+
+.fas {
+  cursor: pointer;
+}
+
+.prevNumbers {
+  width: 65px;
+  text-align: center;
+  margin: 5px 2px 0 2px;
+}
+
+.curNumbers {
+  width: 65px;
+  text-align: center;
+  margin: 5px 2px 0 2px;
+  color: black;
+}
+
+.curDay {
+  width: 45px;
+  text-align: center;
+  margin: 5px 12px 0 12px;
+  color: #fab397;
+  background-color: #686767;
+  border-radius: 7px;
+}
+/*# sourceMappingURL=style.css.map */

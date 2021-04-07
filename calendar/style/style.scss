@@ -1,0 +1,71 @@
+@import url(./nullstyle.css);
+.wrapper {
+  width: 100%;
+}
+.calendar {
+  margin: 50px auto 0 auto;
+  width: 490px;
+  font-size: 24px;
+  border: 1px solid rgb(240, 124, 201);
+  border-radius: 15px;
+  background: linear-gradient(90deg, #faf0cd, #fab397);
+  color: rgba(77, 74, 74, 0.65);
+  &__row {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.row {
+  &__header {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 20px 0;
+    color: black;
+  }
+
+  &__days {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 0 20px 0;
+    color: black;
+  }
+
+  &__numbers {
+    display: flex;
+    flex-wrap: wrap;
+
+    margin: 0 0 20px 0;
+  }
+}
+.header {
+  &__fullDate {
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 25px;
+  }
+}
+
+.fas {
+  cursor: pointer;
+}
+
+.prevNumbers {
+  width: 65px;
+  text-align: center;
+  margin: 5px 2px 0 2px;
+}
+.curNumbers {
+  width: 65px;
+  text-align: center;
+  margin: 5px 2px 0 2px;
+  color: black;
+}
+.curDay {
+  width: 45px;
+  text-align: center;
+  margin: 5px 12px 0 12px;
+  color: #fab397;
+  background-color: rgb(104, 103, 103);
+  border-radius: 7px;
+}
