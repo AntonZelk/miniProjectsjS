@@ -1,0 +1,41 @@
+@import url(./nullstyle.css);
+.wrapper {
+  width: 100%;
+}
+.block {
+  &__row {
+    max-width: 500px;
+    width: 100%;
+
+    border-radius: 12px;
+    margin: 100px auto 0 auto;
+  }
+}
+.menu {
+  &__row {
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+  }
+
+  &__name {
+    background-color: rgba(241, 236, 236, 0.712);
+
+    padding: 15px;
+    margin: 5px 0;
+    border-radius: 15px;
+    cursor: pointer;
+    transition-duration: 300ms;
+  }
+}
+
+.text {
+  max-height: 0;
+  overflow: hidden;
+
+  transition: max-height 0.5s ease-out;
+}
+.active {
+  background-color: rgba(46, 131, 228, 0.952);
+  color: white;
+}
