@@ -1,6 +1,6 @@
 @import url(./nullstyle.css);
-body {
-  font-size: 40px;
-  background-image: url("/img/image.jpg");
+.wrapper {
+  width: 100%;
+  max-width: 1620px;
 }
 /*# sourceMappingURL=style.css.map */
